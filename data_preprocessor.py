@@ -1,7 +1,7 @@
 import json
 import os
 from pprint import pprint
-path, dirs, files = next(os.walk(path-to-dataset"))
+path, dirs, files = next(os.walk("path-to-dataset"))
 file_count = int(len(files)/2)
 for i in range(file_count):
     print(str(i))
